@@ -1,0 +1,21 @@
+import { Meta, StoryObj } from "@storybook/react";
+import { Heading, HeadingProps } from "./heading";
+
+export default {
+  title: "Components/Heading",
+  component: Heading,
+  args: {
+    children: "Lorem ipsum.",
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg'],
+      control: {
+        type: 'inline-radio'
+      }
+    }
+  }
+} as Meta<HeadingProps>;
+
+export const Default: StoryObj = {};
+
