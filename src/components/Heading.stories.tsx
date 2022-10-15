@@ -17,5 +17,6 @@ export default {
   }
 } as Meta<HeadingProps>;
 
+
 export const Default: StoryObj = {};
 
